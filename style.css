@@ -150,8 +150,34 @@ display: flex;
   display: flex;
   align-items: center;
   margin-top: 0rem;
-  justify-content: center;   
+  justify-content: center; 
+  flex-wrap: wrap;
 }
+
+
+#linksb img {
+  width: auto;
+  height: 5rem;
+}
+
+#linksb a{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#linksb {
+  height: 5rem;
+  width: auto;
+  border-top: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  margin-top: 0rem;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+
 
 #find {
   background: none;
