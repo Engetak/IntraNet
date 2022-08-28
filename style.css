@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body{
+  height: fit-content;
+  width: auto;
+}
+
 ul {
   list-style: none;
 }
@@ -18,8 +23,17 @@ img {
   height: auto;
 }
 
+div {
+  background: none;
+  
+}
+
+section {
+  background: none;
+}
+
 /*====  VARIABLES ============================ */
-:root { --backgroud-all-body: linear-gradient(180deg, #43BFB7 0%, rgba(0, 0, 0, 0.79) 84.37%);
+:root { --backgroud-all-body: linear-gradient(180deg, #43BFB7 0%, rgba(0, 0, 0, 0.79) 84.37%) no-repeat;
 
 }
 
@@ -28,11 +42,11 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body {  
+  width: 100vw;
   height: 100vh;
-  width: auto;
   font: 400 1rem var(--body-font);
-  color: white;
+  color: rgb(249, 249, 249);
   background: var(--backgroud-all-body);
   -webkit-font-smoothing: antialiased;
 }
@@ -83,12 +97,12 @@ section {
 }
 
 #top img {
-  width: 8rem;
+  width: 5rem;
   height: auto;
 }
 
 #top {
-  height: 10rem;
+  height: 6rem;
   width: auto;
   border-top: 0;
   background: none;
@@ -116,14 +130,14 @@ display: flex;
 }
 
 #logo img {
-  width: 15rem;
+  width: 10rem;
   height: auto;
 }
 
 #logo {
   margin-top: 0rem;
   background: none;
-  height: 15rem;
+  height: 12rem;
   width: auto;
   display: flex;
   align-items: center;
@@ -134,7 +148,7 @@ display: flex;
 
 #links img {
   width: auto;
-  height: 5rem;
+  height: 4rem;
 }
 
 #links a{
@@ -177,17 +191,50 @@ display: flex;
   flex-wrap: wrap;
 }
 
+#title1 {
+  background: none;
+  height: 2rem;
+  width: auto;  
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#apps {
+  display: flex;
+  margin-top: .1rem;
+  margin-bottom: .1rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#apps .v-line{
+  position: relative;
+  border: thick solid rgba(255, 255, 255, 0);
+  height:7rem;
+  width: .1rem;
+  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0); 
+  margin-top: -3rem; 
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
 
 
 #find {
   background: none;
   height: 13rem;
   width: auto;
-  display: grid;
-  align-items: center;
-  justify-content: center; 
+  display: flex;
+  align-items: flex-start;
+  justify-content:center; 
   text-align: center;
-  margin-top: 0rem;
+  margin-top: .1rem;
   
 }
 
@@ -226,6 +273,43 @@ display: flex;
 #find h3 {
   margin-top: 0rem;
 }
+
+#find img {
+  height: 3rem;
+  width: auto;
+
+}
+
+#mate{  
+    background: none;
+    height: 13rem;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center; 
+    text-align: center;
+    margin-top: .1rem;
+}
+
+#mate h3{
+  margin-top: 0rem;
+}
+
+
+#mate img {
+  height: 5rem;
+  width: auto;
+  margin-top: 1.3rem;
+}
+
+
+
+
+
+
+ 
+
+ 
 
 
 .border {
