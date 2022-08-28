@@ -1,0 +1,133 @@
+
+body {
+  width: 100vw;
+  height: fit-content;
+}
+
+#topb img {
+  width: 3rem;
+  height: auto;
+}
+
+#topb {
+  height: 3rem;
+  width: auto;
+  border-top: 1rem;
+  border-bottom: 1rem;
+  margin-top: 0;
+ 
+  background: none;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center; 
+  align-items: center;
+  justify-items: center;
+  
+}
+
+#topb a {
+display: flex;
+background: fixed;
+
+}
+
+#topb a, div {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#topb div.line {
+  height: .5rem;
+  width: .5rem;
+  border-radius: .5rem;
+  background-color: white;
+}
+
+#logob {
+  height: 4rem;
+  width: auto;
+  background: none;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#logob img {
+  width: 4rem;
+  height: auto;
+  margin-top: 1rem;
+}
+
+
+
+#materiais {
+  height: auto;
+  width: 100vw;
+  display: flexbox;
+  margin-top: .5rem;
+
+}
+
+#materias div{
+  margin-top: 1rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+}
+
+#materiais div.a {
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+
+}
+
+
+#materiais div.a h1{
+text-align: center;
+justify-content: center;
+justify-items: center;
+align-items: center;
+margin-top: 1rem;
+
+margin-bottom: 1rem;
+}
+
+
+#materiais table{
+  width: auto;
+  height: auto;
+  table-layout: fixed;
+  text-align: center;
+  margin-left: 4rem;
+  margin-right: 5rem;
+  tab-size: 100vw;
+ 
+ /* border: 1mm ridge rgb(255, 255, 255);*/
+ /* border: thick double #ffffff; */
+  
+
+}
+
+#materiais table tr.a td{
+  height: 2rem;
+  font-size: 1.5rem;  
+}
+
+#materiais table tr td{
+  height: 1.5rem;
+  font-size: 1rem;  
+}
